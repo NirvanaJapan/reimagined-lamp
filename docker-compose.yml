@@ -1,0 +1,7 @@
+version: "3"
+services:
+  python:
+    build: ./
+    volumes:
+      - ./:/opt/reimagined-lamp
+    command: tail -f /dev/null
